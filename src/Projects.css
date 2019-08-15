@@ -1,0 +1,30 @@
+.column {
+    margin-top: 25px;
+}
+.card {
+    box-shadow: 0 8px 6px -6px black
+}
+
+.projectsDiv > h1 {
+    font-size: 35px;
+    display:flex;
+    justify-content: center;
+    padding-top: 2rem;
+    color: #DA6E7E;
+}
+
+.title {
+    color: rgba(123, 154, 154, 1);
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+}
+
+.subtitle {
+    color: rgba(123, 154, 154, 1);
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.25;
+    
+    margin-bottom: 10px;
+}

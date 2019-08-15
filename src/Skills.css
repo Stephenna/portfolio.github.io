@@ -1,0 +1,19 @@
+.skillsCard{
+    margin-top: 2rem;
+}
+.icons > i{
+    margin-bottom: 8px;
+    
+    margin: 20px;
+    color: inherit;
+    font-size: 35px;
+    color: #7B9A9A
+}
+
+.title {
+    margin-top: 25px;
+    color: #DA6E7E;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.125;
+}

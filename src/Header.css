@@ -1,0 +1,22 @@
+.hero.is-medium .hero-body {
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+}
+.is-horizontal-center {
+    justify-content: center;
+    
+}
+
+  .hero.is-light .title {
+    color: rgba(123, 154, 154, 1);
+}
+
+.hero.is-light .subtitle {
+    color: #BA9505;
+}
+
+  
+   
+
+
+

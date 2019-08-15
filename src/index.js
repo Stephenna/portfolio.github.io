@@ -1,12 +1,33 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import 'react-bulma-components'
 import './index.css';
-import App from './App';
+// import App from './App';
+import Navbar from './Navbar'
+import Header from './Header'
+import Projects from './Projects'
+import Skills from './Skills'
+import Connect from './Connect'
+
+
+
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+class App extends Component {
+    render() {
+        return(
+            <div>
+                <Navbar />
+                <Header title="Stephenna Jemae" />
+                <Projects />
+                <Skills />
+                <Connect />
+                
+               
+            </div>
+        );
+    }
+}
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.render(<App />, document.getElementById('root'));
+serviceWorker.register();

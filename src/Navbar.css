@@ -1,0 +1,9 @@
+.navbar-item > h1 {
+    font-size: 28px;
+    color: rgba(123, 154, 154, 1);
+}
+
+.navbar-end > a {
+    font-size: 18px;
+    color: #DA6E7E;
+}
